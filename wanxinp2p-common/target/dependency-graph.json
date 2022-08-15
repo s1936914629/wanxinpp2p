@@ -1,0 +1,494 @@
+{
+  "graphName" : "wanxinp2p-common",
+  "artifacts" : [ {
+    "id" : "io.springfox:springfox-swagger2:jar",
+    "numericId" : 1,
+    "groupId" : "io.springfox",
+    "artifactId" : "springfox-swagger2",
+    "version" : "2.9.2",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "io.swagger:swagger-annotations:jar",
+    "numericId" : 2,
+    "groupId" : "io.swagger",
+    "artifactId" : "swagger-annotations",
+    "version" : "1.5.20",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "io.swagger:swagger-models:jar",
+    "numericId" : 3,
+    "groupId" : "io.swagger",
+    "artifactId" : "swagger-models",
+    "version" : "1.5.20",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml.jackson.core:jackson-annotations:jar",
+    "numericId" : 4,
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-annotations",
+    "version" : "2.12.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "io.springfox:springfox-core:jar",
+    "numericId" : 5,
+    "groupId" : "io.springfox",
+    "artifactId" : "springfox-core",
+    "version" : "2.9.2",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "net.bytebuddy:byte-buddy:jar",
+    "numericId" : 6,
+    "groupId" : "net.bytebuddy",
+    "artifactId" : "byte-buddy",
+    "version" : "1.10.22",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "io.springfox:springfox-spi:jar",
+    "numericId" : 7,
+    "groupId" : "io.springfox",
+    "artifactId" : "springfox-spi",
+    "version" : "2.9.2",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "io.springfox:springfox-schema:jar",
+    "numericId" : 8,
+    "groupId" : "io.springfox",
+    "artifactId" : "springfox-schema",
+    "version" : "2.9.2",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "io.springfox:springfox-swagger-common:jar",
+    "numericId" : 9,
+    "groupId" : "io.springfox",
+    "artifactId" : "springfox-swagger-common",
+    "version" : "2.9.2",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "io.springfox:springfox-spring-web:jar",
+    "numericId" : 10,
+    "groupId" : "io.springfox",
+    "artifactId" : "springfox-spring-web",
+    "version" : "2.9.2",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.google.guava:guava:jar",
+    "numericId" : 11,
+    "groupId" : "com.google.guava",
+    "artifactId" : "guava",
+    "version" : "25.0-jre",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.google.code.findbugs:jsr305:jar",
+    "numericId" : 12,
+    "groupId" : "com.google.code.findbugs",
+    "artifactId" : "jsr305",
+    "version" : "1.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.checkerframework:checker-compat-qual:jar",
+    "numericId" : 13,
+    "groupId" : "org.checkerframework",
+    "artifactId" : "checker-compat-qual",
+    "version" : "2.0.0",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.google.errorprone:error_prone_annotations:jar",
+    "numericId" : 14,
+    "groupId" : "com.google.errorprone",
+    "artifactId" : "error_prone_annotations",
+    "version" : "2.1.3",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.google.j2objc:j2objc-annotations:jar",
+    "numericId" : 15,
+    "groupId" : "com.google.j2objc",
+    "artifactId" : "j2objc-annotations",
+    "version" : "1.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.codehaus.mojo:animal-sniffer-annotations:jar",
+    "numericId" : 16,
+    "groupId" : "org.codehaus.mojo",
+    "artifactId" : "animal-sniffer-annotations",
+    "version" : "1.14",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml:classmate:jar",
+    "numericId" : 17,
+    "groupId" : "com.fasterxml",
+    "artifactId" : "classmate",
+    "version" : "1.5.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.slf4j:slf4j-api:jar",
+    "numericId" : 18,
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-api",
+    "version" : "1.7.32",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-core:jar",
+    "numericId" : 19,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-core",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-jcl:jar",
+    "numericId" : 20,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-jcl",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-beans:jar",
+    "numericId" : 21,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-beans",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.plugin:spring-plugin-core:jar",
+    "numericId" : 22,
+    "groupId" : "org.springframework.plugin",
+    "artifactId" : "spring-plugin-core",
+    "version" : "1.2.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-context:jar",
+    "numericId" : 23,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-context",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-expression:jar",
+    "numericId" : 24,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-expression",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-aop:jar",
+    "numericId" : 25,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-aop",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.plugin:spring-plugin-metadata:jar",
+    "numericId" : 26,
+    "groupId" : "org.springframework.plugin",
+    "artifactId" : "spring-plugin-metadata",
+    "version" : "1.2.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.mapstruct:mapstruct:jar",
+    "numericId" : 27,
+    "groupId" : "org.mapstruct",
+    "artifactId" : "mapstruct",
+    "version" : "1.2.0.Final",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "cn.org.sqx:wanxinp2p-common:jar",
+    "numericId" : 28,
+    "groupId" : "cn.org.sqx",
+    "artifactId" : "wanxinp2p-common",
+    "version" : "1.0-SNAPSHOT",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "io.springfox:springfox-swagger-ui:jar",
+    "numericId" : 29,
+    "groupId" : "io.springfox",
+    "artifactId" : "springfox-swagger-ui",
+    "version" : "2.9.2",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.alibaba:fastjson:jar",
+    "numericId" : 30,
+    "groupId" : "com.alibaba",
+    "artifactId" : "fastjson",
+    "version" : "1.2.47",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "javax.servlet:javax.servlet-api:jar",
+    "numericId" : 31,
+    "groupId" : "javax.servlet",
+    "artifactId" : "javax.servlet-api",
+    "version" : "3.1.0",
+    "optional" : false,
+    "scopes" : [ "provided" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "commons-lang:commons-lang:jar",
+    "numericId" : 32,
+    "groupId" : "commons-lang",
+    "artifactId" : "commons-lang",
+    "version" : "2.6",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "commons-codec:commons-codec:jar",
+    "numericId" : 33,
+    "groupId" : "commons-codec",
+    "artifactId" : "commons-codec",
+    "version" : "1.11",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  } ],
+  "dependencies" : [ {
+    "from" : "io.springfox:springfox-swagger2:jar",
+    "to" : "io.swagger:swagger-annotations:jar",
+    "numericFrom" : 0,
+    "numericTo" : 1,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.swagger:swagger-models:jar",
+    "to" : "com.fasterxml.jackson.core:jackson-annotations:jar",
+    "numericFrom" : 2,
+    "numericTo" : 3,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.springfox:springfox-swagger2:jar",
+    "to" : "io.swagger:swagger-models:jar",
+    "numericFrom" : 0,
+    "numericTo" : 2,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.springfox:springfox-core:jar",
+    "to" : "net.bytebuddy:byte-buddy:jar",
+    "numericFrom" : 4,
+    "numericTo" : 5,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.springfox:springfox-spi:jar",
+    "to" : "io.springfox:springfox-core:jar",
+    "numericFrom" : 6,
+    "numericTo" : 4,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.springfox:springfox-swagger2:jar",
+    "to" : "io.springfox:springfox-spi:jar",
+    "numericFrom" : 0,
+    "numericTo" : 6,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.springfox:springfox-swagger2:jar",
+    "to" : "io.springfox:springfox-schema:jar",
+    "numericFrom" : 0,
+    "numericTo" : 7,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.springfox:springfox-swagger2:jar",
+    "to" : "io.springfox:springfox-swagger-common:jar",
+    "numericFrom" : 0,
+    "numericTo" : 8,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.springfox:springfox-swagger2:jar",
+    "to" : "io.springfox:springfox-spring-web:jar",
+    "numericFrom" : 0,
+    "numericTo" : 9,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.google.guava:guava:jar",
+    "to" : "com.google.code.findbugs:jsr305:jar",
+    "numericFrom" : 10,
+    "numericTo" : 11,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.google.guava:guava:jar",
+    "to" : "org.checkerframework:checker-compat-qual:jar",
+    "numericFrom" : 10,
+    "numericTo" : 12,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.google.guava:guava:jar",
+    "to" : "com.google.errorprone:error_prone_annotations:jar",
+    "numericFrom" : 10,
+    "numericTo" : 13,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.google.guava:guava:jar",
+    "to" : "com.google.j2objc:j2objc-annotations:jar",
+    "numericFrom" : 10,
+    "numericTo" : 14,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.google.guava:guava:jar",
+    "to" : "org.codehaus.mojo:animal-sniffer-annotations:jar",
+    "numericFrom" : 10,
+    "numericTo" : 15,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.springfox:springfox-swagger2:jar",
+    "to" : "com.google.guava:guava:jar",
+    "numericFrom" : 0,
+    "numericTo" : 10,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.springfox:springfox-swagger2:jar",
+    "to" : "com.fasterxml:classmate:jar",
+    "numericFrom" : 0,
+    "numericTo" : 16,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.springfox:springfox-swagger2:jar",
+    "to" : "org.slf4j:slf4j-api:jar",
+    "numericFrom" : 0,
+    "numericTo" : 17,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework:spring-core:jar",
+    "to" : "org.springframework:spring-jcl:jar",
+    "numericFrom" : 18,
+    "numericTo" : 19,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework:spring-beans:jar",
+    "to" : "org.springframework:spring-core:jar",
+    "numericFrom" : 20,
+    "numericTo" : 18,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.plugin:spring-plugin-core:jar",
+    "to" : "org.springframework:spring-beans:jar",
+    "numericFrom" : 21,
+    "numericTo" : 20,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework:spring-context:jar",
+    "to" : "org.springframework:spring-expression:jar",
+    "numericFrom" : 22,
+    "numericTo" : 23,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.plugin:spring-plugin-core:jar",
+    "to" : "org.springframework:spring-context:jar",
+    "numericFrom" : 21,
+    "numericTo" : 22,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.plugin:spring-plugin-core:jar",
+    "to" : "org.springframework:spring-aop:jar",
+    "numericFrom" : 21,
+    "numericTo" : 24,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.springfox:springfox-swagger2:jar",
+    "to" : "org.springframework.plugin:spring-plugin-core:jar",
+    "numericFrom" : 0,
+    "numericTo" : 21,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.springfox:springfox-swagger2:jar",
+    "to" : "org.springframework.plugin:spring-plugin-metadata:jar",
+    "numericFrom" : 0,
+    "numericTo" : 25,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.springfox:springfox-swagger2:jar",
+    "to" : "org.mapstruct:mapstruct:jar",
+    "numericFrom" : 0,
+    "numericTo" : 26,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "cn.org.sqx:wanxinp2p-common:jar",
+    "to" : "io.springfox:springfox-swagger2:jar",
+    "numericFrom" : 27,
+    "numericTo" : 0,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "cn.org.sqx:wanxinp2p-common:jar",
+    "to" : "io.springfox:springfox-swagger-ui:jar",
+    "numericFrom" : 27,
+    "numericTo" : 28,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "cn.org.sqx:wanxinp2p-common:jar",
+    "to" : "com.alibaba:fastjson:jar",
+    "numericFrom" : 27,
+    "numericTo" : 29,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "cn.org.sqx:wanxinp2p-common:jar",
+    "to" : "javax.servlet:javax.servlet-api:jar",
+    "numericFrom" : 27,
+    "numericTo" : 30,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "cn.org.sqx:wanxinp2p-common:jar",
+    "to" : "commons-lang:commons-lang:jar",
+    "numericFrom" : 27,
+    "numericTo" : 31,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "cn.org.sqx:wanxinp2p-common:jar",
+    "to" : "commons-codec:commons-codec:jar",
+    "numericFrom" : 27,
+    "numericTo" : 32,
+    "resolution" : "INCLUDED"
+  } ]
+}

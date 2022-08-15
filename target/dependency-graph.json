@@ -1,0 +1,13 @@
+{
+  "graphName" : "wanxinp2p",
+  "artifacts" : [ {
+    "id" : "cn.org.sqx:wanxinp2p:pom",
+    "numericId" : 1,
+    "groupId" : "cn.org.sqx",
+    "artifactId" : "wanxinp2p",
+    "version" : "1.0-SNAPSHOT",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "pom" ]
+  } ]
+}

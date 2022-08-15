@@ -1,0 +1,1814 @@
+{
+  "graphName" : "wanxinp2p-discover-server",
+  "artifacts" : [ {
+    "id" : "org.springframework.cloud:spring-cloud-context:jar",
+    "numericId" : 1,
+    "groupId" : "org.springframework.cloud",
+    "artifactId" : "spring-cloud-context",
+    "version" : "2.1.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.security:spring-security-crypto:jar",
+    "numericId" : 2,
+    "groupId" : "org.springframework.security",
+    "artifactId" : "spring-security-crypto",
+    "version" : "5.5.2",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.cloud:spring-cloud-starter:jar",
+    "numericId" : 3,
+    "groupId" : "org.springframework.cloud",
+    "artifactId" : "spring-cloud-starter",
+    "version" : "2.1.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.cloud:spring-cloud-commons:jar",
+    "numericId" : 4,
+    "groupId" : "org.springframework.cloud",
+    "artifactId" : "spring-cloud-commons",
+    "version" : "2.1.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.bouncycastle:bcpkix-jdk15on:jar",
+    "numericId" : 5,
+    "groupId" : "org.bouncycastle",
+    "artifactId" : "bcpkix-jdk15on",
+    "version" : "1.60",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.bouncycastle:bcprov-jdk15on:jar",
+    "numericId" : 6,
+    "groupId" : "org.bouncycastle",
+    "artifactId" : "bcprov-jdk15on",
+    "version" : "1.60",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.security:spring-security-rsa:jar",
+    "numericId" : 7,
+    "groupId" : "org.springframework.security",
+    "artifactId" : "spring-security-rsa",
+    "version" : "1.0.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar",
+    "numericId" : 8,
+    "groupId" : "org.springframework.cloud",
+    "artifactId" : "spring-cloud-starter-netflix-eureka-server",
+    "version" : "2.1.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-starter-json:jar",
+    "numericId" : 9,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-json",
+    "version" : "2.5.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar",
+    "numericId" : 10,
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-jdk8",
+    "version" : "2.12.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml.jackson.module:jackson-module-parameter-names:jar",
+    "numericId" : 11,
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-parameter-names",
+    "version" : "2.12.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-starter-web:jar",
+    "numericId" : 12,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-web",
+    "version" : "2.5.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-starter-tomcat:jar",
+    "numericId" : 13,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-tomcat",
+    "version" : "2.5.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.tomcat.embed:tomcat-embed-core:jar",
+    "numericId" : 14,
+    "groupId" : "org.apache.tomcat.embed",
+    "artifactId" : "tomcat-embed-core",
+    "version" : "9.0.52",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.tomcat.embed:tomcat-embed-el:jar",
+    "numericId" : 15,
+    "groupId" : "org.apache.tomcat.embed",
+    "artifactId" : "tomcat-embed-el",
+    "version" : "9.0.52",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.tomcat.embed:tomcat-embed-websocket:jar",
+    "numericId" : 16,
+    "groupId" : "org.apache.tomcat.embed",
+    "artifactId" : "tomcat-embed-websocket",
+    "version" : "9.0.52",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-web:jar",
+    "numericId" : 17,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-web",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-webmvc:jar",
+    "numericId" : 18,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-webmvc",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "numericId" : 19,
+    "groupId" : "org.springframework.cloud",
+    "artifactId" : "spring-cloud-netflix-eureka-server",
+    "version" : "2.1.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-starter-freemarker:jar",
+    "numericId" : 20,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-freemarker",
+    "version" : "2.5.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.freemarker:freemarker:jar",
+    "numericId" : 21,
+    "groupId" : "org.freemarker",
+    "artifactId" : "freemarker",
+    "version" : "2.3.31",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-context-support:jar",
+    "numericId" : 22,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-context-support",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-starter-aop:jar",
+    "numericId" : 23,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-aop",
+    "version" : "2.5.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.aspectj:aspectjweaver:jar",
+    "numericId" : 24,
+    "groupId" : "org.aspectj",
+    "artifactId" : "aspectjweaver",
+    "version" : "1.9.7",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.cloud:spring-cloud-netflix-hystrix:jar",
+    "numericId" : 25,
+    "groupId" : "org.springframework.cloud",
+    "artifactId" : "spring-cloud-netflix-hystrix",
+    "version" : "2.1.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.cloud:spring-cloud-netflix-eureka-client:jar",
+    "numericId" : 26,
+    "groupId" : "org.springframework.cloud",
+    "artifactId" : "spring-cloud-netflix-eureka-client",
+    "version" : "2.1.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.codehaus.jettison:jettison:jar",
+    "numericId" : 27,
+    "groupId" : "org.codehaus.jettison",
+    "artifactId" : "jettison",
+    "version" : "1.3.7",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "stax:stax-api:jar",
+    "numericId" : 28,
+    "groupId" : "stax",
+    "artifactId" : "stax-api",
+    "version" : "1.0.1",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.eureka:eureka-client:jar",
+    "numericId" : 29,
+    "groupId" : "com.netflix.eureka",
+    "artifactId" : "eureka-client",
+    "version" : "1.9.8",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.netflix-commons:netflix-infix:jar",
+    "numericId" : 30,
+    "groupId" : "com.netflix.netflix-commons",
+    "artifactId" : "netflix-infix",
+    "version" : "0.3.0",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "commons-jxpath:commons-jxpath:jar",
+    "numericId" : 31,
+    "groupId" : "commons-jxpath",
+    "artifactId" : "commons-jxpath",
+    "version" : "1.3",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "joda-time:joda-time:jar",
+    "numericId" : 32,
+    "groupId" : "joda-time",
+    "artifactId" : "joda-time",
+    "version" : "2.3",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.antlr:antlr-runtime:jar",
+    "numericId" : 33,
+    "groupId" : "org.antlr",
+    "artifactId" : "antlr-runtime",
+    "version" : "3.4",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.antlr:stringtemplate:jar",
+    "numericId" : 34,
+    "groupId" : "org.antlr",
+    "artifactId" : "stringtemplate",
+    "version" : "3.2.1",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "antlr:antlr:jar",
+    "numericId" : 35,
+    "groupId" : "antlr",
+    "artifactId" : "antlr",
+    "version" : "2.7.7",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.google.code.gson:gson:jar",
+    "numericId" : 36,
+    "groupId" : "com.google.code.gson",
+    "artifactId" : "gson",
+    "version" : "2.8.2",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.netflix-commons:netflix-eventbus:jar",
+    "numericId" : 37,
+    "groupId" : "com.netflix.netflix-commons",
+    "artifactId" : "netflix-eventbus",
+    "version" : "0.3.0",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.commons:commons-math:jar",
+    "numericId" : 38,
+    "groupId" : "org.apache.commons",
+    "artifactId" : "commons-math",
+    "version" : "2.2",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "javax.ws.rs:jsr311-api:jar",
+    "numericId" : 39,
+    "groupId" : "javax.ws.rs",
+    "artifactId" : "jsr311-api",
+    "version" : "1.1.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.servo:servo-core:jar",
+    "numericId" : 40,
+    "groupId" : "com.netflix.servo",
+    "artifactId" : "servo-core",
+    "version" : "0.12.21",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.sun.jersey:jersey-core:jar",
+    "numericId" : 41,
+    "groupId" : "com.sun.jersey",
+    "artifactId" : "jersey-core",
+    "version" : "1.19.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.sun.jersey:jersey-client:jar",
+    "numericId" : 42,
+    "groupId" : "com.sun.jersey",
+    "artifactId" : "jersey-client",
+    "version" : "1.19.1",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.sun.jersey.contribs:jersey-apache-client4:jar",
+    "numericId" : 43,
+    "groupId" : "com.sun.jersey.contribs",
+    "artifactId" : "jersey-apache-client4",
+    "version" : "1.19.1",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.httpcomponents:httpclient:jar",
+    "numericId" : 44,
+    "groupId" : "org.apache.httpcomponents",
+    "artifactId" : "httpclient",
+    "version" : "4.5.13",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.httpcomponents:httpcore:jar",
+    "numericId" : 45,
+    "groupId" : "org.apache.httpcomponents",
+    "artifactId" : "httpcore",
+    "version" : "4.4.14",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "commons-codec:commons-codec:jar",
+    "numericId" : 46,
+    "groupId" : "commons-codec",
+    "artifactId" : "commons-codec",
+    "version" : "1.15",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.google.inject:guice:jar",
+    "numericId" : 47,
+    "groupId" : "com.google.inject",
+    "artifactId" : "guice",
+    "version" : "4.1.0",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "aopalliance:aopalliance:jar",
+    "numericId" : 48,
+    "groupId" : "aopalliance",
+    "artifactId" : "aopalliance",
+    "version" : "1.0",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.github.vlsi.compactmap:compactmap:jar",
+    "numericId" : 49,
+    "groupId" : "com.github.vlsi.compactmap",
+    "artifactId" : "compactmap",
+    "version" : "1.2.1",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.github.andrewoma.dexx:dexx-collections:jar",
+    "numericId" : 50,
+    "groupId" : "com.github.andrewoma.dexx",
+    "artifactId" : "dexx-collections",
+    "version" : "0.2",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml.jackson.core:jackson-annotations:jar",
+    "numericId" : 51,
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-annotations",
+    "version" : "2.12.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml.jackson.core:jackson-core:jar",
+    "numericId" : 52,
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-core",
+    "version" : "2.12.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.sun.jersey:jersey-servlet:jar",
+    "numericId" : 53,
+    "groupId" : "com.sun.jersey",
+    "artifactId" : "jersey-servlet",
+    "version" : "1.19.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.sun.jersey:jersey-server:jar",
+    "numericId" : 54,
+    "groupId" : "com.sun.jersey",
+    "artifactId" : "jersey-server",
+    "version" : "1.19.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.codehaus.woodstox:woodstox-core-asl:jar",
+    "numericId" : 55,
+    "groupId" : "org.codehaus.woodstox",
+    "artifactId" : "woodstox-core-asl",
+    "version" : "4.4.1",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "javax.xml.stream:stax-api:jar",
+    "numericId" : 56,
+    "groupId" : "javax.xml.stream",
+    "artifactId" : "stax-api",
+    "version" : "1.0-2",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.eureka:eureka-core:jar",
+    "numericId" : 57,
+    "groupId" : "com.netflix.eureka",
+    "artifactId" : "eureka-core",
+    "version" : "1.9.8",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.archaius:archaius-core:jar",
+    "numericId" : 58,
+    "groupId" : "com.netflix.archaius",
+    "artifactId" : "archaius-core",
+    "version" : "0.7.6",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.google.code.findbugs:jsr305:jar",
+    "numericId" : 59,
+    "groupId" : "com.google.code.findbugs",
+    "artifactId" : "jsr305",
+    "version" : "3.0.1",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.google.guava:guava:jar",
+    "numericId" : 60,
+    "groupId" : "com.google.guava",
+    "artifactId" : "guava",
+    "version" : "25.0-jre",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.checkerframework:checker-compat-qual:jar",
+    "numericId" : 61,
+    "groupId" : "org.checkerframework",
+    "artifactId" : "checker-compat-qual",
+    "version" : "2.0.0",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.google.errorprone:error_prone_annotations:jar",
+    "numericId" : 62,
+    "groupId" : "com.google.errorprone",
+    "artifactId" : "error_prone_annotations",
+    "version" : "2.1.3",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.google.j2objc:j2objc-annotations:jar",
+    "numericId" : 63,
+    "groupId" : "com.google.j2objc",
+    "artifactId" : "j2objc-annotations",
+    "version" : "1.1",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.codehaus.mojo:animal-sniffer-annotations:jar",
+    "numericId" : 64,
+    "groupId" : "org.codehaus.mojo",
+    "artifactId" : "animal-sniffer-annotations",
+    "version" : "1.14",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "javax.inject:javax.inject:jar",
+    "numericId" : 65,
+    "groupId" : "javax.inject",
+    "artifactId" : "javax.inject",
+    "version" : "1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar",
+    "numericId" : 66,
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-jaxb-annotations",
+    "version" : "2.12.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "jakarta.xml.bind:jakarta.xml.bind-api:jar",
+    "numericId" : 67,
+    "groupId" : "jakarta.xml.bind",
+    "artifactId" : "jakarta.xml.bind-api",
+    "version" : "2.3.3",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "jakarta.activation:jakarta.activation-api:jar",
+    "numericId" : 68,
+    "groupId" : "jakarta.activation",
+    "artifactId" : "jakarta.activation-api",
+    "version" : "1.2.2",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar",
+    "numericId" : 69,
+    "groupId" : "com.fasterxml.jackson.dataformat",
+    "artifactId" : "jackson-dataformat-xml",
+    "version" : "2.12.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.codehaus.woodstox:stax2-api:jar",
+    "numericId" : 70,
+    "groupId" : "org.codehaus.woodstox",
+    "artifactId" : "stax2-api",
+    "version" : "4.2.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml.woodstox:woodstox-core:jar",
+    "numericId" : 71,
+    "groupId" : "com.fasterxml.woodstox",
+    "artifactId" : "woodstox-core",
+    "version" : "6.2.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.thoughtworks.xstream:xstream:jar",
+    "numericId" : 72,
+    "groupId" : "com.thoughtworks.xstream",
+    "artifactId" : "xstream",
+    "version" : "1.4.10",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "xmlpull:xmlpull:jar",
+    "numericId" : 73,
+    "groupId" : "xmlpull",
+    "artifactId" : "xmlpull",
+    "version" : "1.1.3.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "xpp3:xpp3_min:jar",
+    "numericId" : 74,
+    "groupId" : "xpp3",
+    "artifactId" : "xpp3_min",
+    "version" : "1.1.4c",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar",
+    "numericId" : 75,
+    "groupId" : "org.springframework.cloud",
+    "artifactId" : "spring-cloud-starter-netflix-archaius",
+    "version" : "2.1.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.cloud:spring-cloud-netflix-ribbon:jar",
+    "numericId" : 76,
+    "groupId" : "org.springframework.cloud",
+    "artifactId" : "spring-cloud-netflix-ribbon",
+    "version" : "2.1.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.cloud:spring-cloud-netflix-archaius:jar",
+    "numericId" : 77,
+    "groupId" : "org.springframework.cloud",
+    "artifactId" : "spring-cloud-netflix-archaius",
+    "version" : "2.1.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "commons-configuration:commons-configuration:jar",
+    "numericId" : 78,
+    "groupId" : "commons-configuration",
+    "artifactId" : "commons-configuration",
+    "version" : "1.8",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "commons-lang:commons-lang:jar",
+    "numericId" : 79,
+    "groupId" : "commons-lang",
+    "artifactId" : "commons-lang",
+    "version" : "2.6",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.ribbon:ribbon-transport:jar",
+    "numericId" : 80,
+    "groupId" : "com.netflix.ribbon",
+    "artifactId" : "ribbon-transport",
+    "version" : "2.3.0",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "io.reactivex:rxnetty-contexts:jar",
+    "numericId" : 81,
+    "groupId" : "io.reactivex",
+    "artifactId" : "rxnetty-contexts",
+    "version" : "0.4.9",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "io.reactivex:rxnetty-servo:jar",
+    "numericId" : 82,
+    "groupId" : "io.reactivex",
+    "artifactId" : "rxnetty-servo",
+    "version" : "0.4.9",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.ribbon:ribbon:jar",
+    "numericId" : 83,
+    "groupId" : "com.netflix.ribbon",
+    "artifactId" : "ribbon",
+    "version" : "2.3.0",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.hystrix:hystrix-core:jar",
+    "numericId" : 84,
+    "groupId" : "com.netflix.hystrix",
+    "artifactId" : "hystrix-core",
+    "version" : "1.5.18",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "io.reactivex:rxnetty:jar",
+    "numericId" : 85,
+    "groupId" : "io.reactivex",
+    "artifactId" : "rxnetty",
+    "version" : "0.4.9",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar",
+    "numericId" : 86,
+    "groupId" : "org.springframework.cloud",
+    "artifactId" : "spring-cloud-starter-netflix-ribbon",
+    "version" : "2.1.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.ribbon:ribbon-core:jar",
+    "numericId" : 87,
+    "groupId" : "com.netflix.ribbon",
+    "artifactId" : "ribbon-core",
+    "version" : "2.3.0",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.ribbon:ribbon-httpclient:jar",
+    "numericId" : 88,
+    "groupId" : "com.netflix.ribbon",
+    "artifactId" : "ribbon-httpclient",
+    "version" : "2.3.0",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "commons-collections:commons-collections:jar",
+    "numericId" : 89,
+    "groupId" : "commons-collections",
+    "artifactId" : "commons-collections",
+    "version" : "3.2.2",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.netflix-commons:netflix-commons-util:jar",
+    "numericId" : 90,
+    "groupId" : "com.netflix.netflix-commons",
+    "artifactId" : "netflix-commons-util",
+    "version" : "0.3.0",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.ribbon:ribbon-loadbalancer:jar",
+    "numericId" : 91,
+    "groupId" : "com.netflix.ribbon",
+    "artifactId" : "ribbon-loadbalancer",
+    "version" : "2.3.0",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.netflix-commons:netflix-statistics:jar",
+    "numericId" : 92,
+    "groupId" : "com.netflix.netflix-commons",
+    "artifactId" : "netflix-statistics",
+    "version" : "0.1.1",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "io.reactivex:rxjava:jar",
+    "numericId" : 93,
+    "groupId" : "io.reactivex",
+    "artifactId" : "rxjava",
+    "version" : "1.3.8",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.netflix.ribbon:ribbon-eureka:jar",
+    "numericId" : 94,
+    "groupId" : "com.netflix.ribbon",
+    "artifactId" : "ribbon-eureka",
+    "version" : "2.3.0",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.slf4j:slf4j-api:jar",
+    "numericId" : 95,
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-api",
+    "version" : "1.7.32",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "cn.org.sqx:wanxinp2p-discover-server:jar",
+    "numericId" : 96,
+    "groupId" : "cn.org.sqx",
+    "artifactId" : "wanxinp2p-discover-server",
+    "version" : "1.0-SNAPSHOT",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-actuator-autoconfigure:jar",
+    "numericId" : 97,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-actuator-autoconfigure",
+    "version" : "2.5.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-actuator:jar",
+    "numericId" : 98,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-actuator",
+    "version" : "2.5.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml.jackson.core:jackson-databind:jar",
+    "numericId" : 99,
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-databind",
+    "version" : "2.12.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar",
+    "numericId" : 100,
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-jsr310",
+    "version" : "2.12.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-starter-actuator:jar",
+    "numericId" : 101,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-actuator",
+    "version" : "2.5.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "io.micrometer:micrometer-core:jar",
+    "numericId" : 102,
+    "groupId" : "io.micrometer",
+    "artifactId" : "micrometer-core",
+    "version" : "1.7.3",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.hdrhistogram:HdrHistogram:jar",
+    "numericId" : 103,
+    "groupId" : "org.hdrhistogram",
+    "artifactId" : "HdrHistogram",
+    "version" : "2.1.12",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.latencyutils:LatencyUtils:jar",
+    "numericId" : 104,
+    "groupId" : "org.latencyutils",
+    "artifactId" : "LatencyUtils",
+    "version" : "2.0.3",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-context:jar",
+    "numericId" : 105,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-context",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-aop:jar",
+    "numericId" : 106,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-aop",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-beans:jar",
+    "numericId" : 107,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-beans",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-expression:jar",
+    "numericId" : 108,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-expression",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot:jar",
+    "numericId" : 109,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot",
+    "version" : "2.5.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-starter:jar",
+    "numericId" : 110,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter",
+    "version" : "2.5.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-autoconfigure:jar",
+    "numericId" : 111,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-autoconfigure",
+    "version" : "2.5.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "jakarta.annotation:jakarta.annotation-api:jar",
+    "numericId" : 112,
+    "groupId" : "jakarta.annotation",
+    "artifactId" : "jakarta.annotation-api",
+    "version" : "1.3.5",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-core:jar",
+    "numericId" : 113,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-core",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-jcl:jar",
+    "numericId" : 114,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-jcl",
+    "version" : "5.3.9",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.yaml:snakeyaml:jar",
+    "numericId" : 115,
+    "groupId" : "org.yaml",
+    "artifactId" : "snakeyaml",
+    "version" : "1.28",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.logging.log4j:log4j-slf4j-impl:jar",
+    "numericId" : 116,
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-slf4j-impl",
+    "version" : "2.14.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.logging.log4j:log4j-api:jar",
+    "numericId" : 117,
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-api",
+    "version" : "2.14.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-starter-log4j2:jar",
+    "numericId" : 118,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-log4j2",
+    "version" : "2.5.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.logging.log4j:log4j-core:jar",
+    "numericId" : 119,
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-core",
+    "version" : "2.14.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.logging.log4j:log4j-jul:jar",
+    "numericId" : 120,
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-jul",
+    "version" : "2.14.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.slf4j:jul-to-slf4j:jar",
+    "numericId" : 121,
+    "groupId" : "org.slf4j",
+    "artifactId" : "jul-to-slf4j",
+    "version" : "1.7.32",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  } ],
+  "dependencies" : [ {
+    "from" : "org.springframework.cloud:spring-cloud-context:jar",
+    "to" : "org.springframework.security:spring-security-crypto:jar",
+    "numericFrom" : 0,
+    "numericTo" : 1,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter:jar",
+    "to" : "org.springframework.cloud:spring-cloud-context:jar",
+    "numericFrom" : 2,
+    "numericTo" : 0,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter:jar",
+    "to" : "org.springframework.cloud:spring-cloud-commons:jar",
+    "numericFrom" : 2,
+    "numericTo" : 3,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.bouncycastle:bcpkix-jdk15on:jar",
+    "to" : "org.bouncycastle:bcprov-jdk15on:jar",
+    "numericFrom" : 4,
+    "numericTo" : 5,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.security:spring-security-rsa:jar",
+    "to" : "org.bouncycastle:bcpkix-jdk15on:jar",
+    "numericFrom" : 6,
+    "numericTo" : 4,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter:jar",
+    "to" : "org.springframework.security:spring-security-rsa:jar",
+    "numericFrom" : 2,
+    "numericTo" : 6,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar",
+    "to" : "org.springframework.cloud:spring-cloud-starter:jar",
+    "numericFrom" : 7,
+    "numericTo" : 2,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-json:jar",
+    "to" : "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar",
+    "numericFrom" : 8,
+    "numericTo" : 9,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-json:jar",
+    "to" : "com.fasterxml.jackson.module:jackson-module-parameter-names:jar",
+    "numericFrom" : 8,
+    "numericTo" : 10,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-web:jar",
+    "to" : "org.springframework.boot:spring-boot-starter-json:jar",
+    "numericFrom" : 11,
+    "numericTo" : 8,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-tomcat:jar",
+    "to" : "org.apache.tomcat.embed:tomcat-embed-core:jar",
+    "numericFrom" : 12,
+    "numericTo" : 13,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-tomcat:jar",
+    "to" : "org.apache.tomcat.embed:tomcat-embed-el:jar",
+    "numericFrom" : 12,
+    "numericTo" : 14,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-tomcat:jar",
+    "to" : "org.apache.tomcat.embed:tomcat-embed-websocket:jar",
+    "numericFrom" : 12,
+    "numericTo" : 15,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-web:jar",
+    "to" : "org.springframework.boot:spring-boot-starter-tomcat:jar",
+    "numericFrom" : 11,
+    "numericTo" : 12,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-web:jar",
+    "to" : "org.springframework:spring-web:jar",
+    "numericFrom" : 11,
+    "numericTo" : 16,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-web:jar",
+    "to" : "org.springframework:spring-webmvc:jar",
+    "numericFrom" : 11,
+    "numericTo" : 17,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "to" : "org.springframework.boot:spring-boot-starter-web:jar",
+    "numericFrom" : 18,
+    "numericTo" : 11,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-freemarker:jar",
+    "to" : "org.freemarker:freemarker:jar",
+    "numericFrom" : 19,
+    "numericTo" : 20,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-freemarker:jar",
+    "to" : "org.springframework:spring-context-support:jar",
+    "numericFrom" : 19,
+    "numericTo" : 21,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "to" : "org.springframework.boot:spring-boot-starter-freemarker:jar",
+    "numericFrom" : 18,
+    "numericTo" : 19,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-aop:jar",
+    "to" : "org.aspectj:aspectjweaver:jar",
+    "numericFrom" : 22,
+    "numericTo" : 23,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-netflix-hystrix:jar",
+    "to" : "org.springframework.boot:spring-boot-starter-aop:jar",
+    "numericFrom" : 24,
+    "numericTo" : 22,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "to" : "org.springframework.cloud:spring-cloud-netflix-hystrix:jar",
+    "numericFrom" : 18,
+    "numericTo" : 24,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "to" : "org.springframework.cloud:spring-cloud-netflix-eureka-client:jar",
+    "numericFrom" : 18,
+    "numericTo" : 25,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.codehaus.jettison:jettison:jar",
+    "to" : "stax:stax-api:jar",
+    "numericFrom" : 26,
+    "numericTo" : 27,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.eureka:eureka-client:jar",
+    "to" : "org.codehaus.jettison:jettison:jar",
+    "numericFrom" : 28,
+    "numericTo" : 26,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.netflix-commons:netflix-infix:jar",
+    "to" : "commons-jxpath:commons-jxpath:jar",
+    "numericFrom" : 29,
+    "numericTo" : 30,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.netflix-commons:netflix-infix:jar",
+    "to" : "joda-time:joda-time:jar",
+    "numericFrom" : 29,
+    "numericTo" : 31,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.antlr:antlr-runtime:jar",
+    "to" : "org.antlr:stringtemplate:jar",
+    "numericFrom" : 32,
+    "numericTo" : 33,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.antlr:antlr-runtime:jar",
+    "to" : "antlr:antlr:jar",
+    "numericFrom" : 32,
+    "numericTo" : 34,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.netflix-commons:netflix-infix:jar",
+    "to" : "org.antlr:antlr-runtime:jar",
+    "numericFrom" : 29,
+    "numericTo" : 32,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.netflix-commons:netflix-infix:jar",
+    "to" : "com.google.code.gson:gson:jar",
+    "numericFrom" : 29,
+    "numericTo" : 35,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.netflix-commons:netflix-eventbus:jar",
+    "to" : "com.netflix.netflix-commons:netflix-infix:jar",
+    "numericFrom" : 36,
+    "numericTo" : 29,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.netflix-commons:netflix-eventbus:jar",
+    "to" : "org.apache.commons:commons-math:jar",
+    "numericFrom" : 36,
+    "numericTo" : 37,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.eureka:eureka-client:jar",
+    "to" : "com.netflix.netflix-commons:netflix-eventbus:jar",
+    "numericFrom" : 28,
+    "numericTo" : 36,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.eureka:eureka-client:jar",
+    "to" : "javax.ws.rs:jsr311-api:jar",
+    "numericFrom" : 28,
+    "numericTo" : 38,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.eureka:eureka-client:jar",
+    "to" : "com.netflix.servo:servo-core:jar",
+    "numericFrom" : 28,
+    "numericTo" : 39,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.eureka:eureka-client:jar",
+    "to" : "com.sun.jersey:jersey-core:jar",
+    "numericFrom" : 28,
+    "numericTo" : 40,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.eureka:eureka-client:jar",
+    "to" : "com.sun.jersey:jersey-client:jar",
+    "numericFrom" : 28,
+    "numericTo" : 41,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.eureka:eureka-client:jar",
+    "to" : "com.sun.jersey.contribs:jersey-apache-client4:jar",
+    "numericFrom" : 28,
+    "numericTo" : 42,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.apache.httpcomponents:httpclient:jar",
+    "to" : "org.apache.httpcomponents:httpcore:jar",
+    "numericFrom" : 43,
+    "numericTo" : 44,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.apache.httpcomponents:httpclient:jar",
+    "to" : "commons-codec:commons-codec:jar",
+    "numericFrom" : 43,
+    "numericTo" : 45,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.eureka:eureka-client:jar",
+    "to" : "org.apache.httpcomponents:httpclient:jar",
+    "numericFrom" : 28,
+    "numericTo" : 43,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.google.inject:guice:jar",
+    "to" : "aopalliance:aopalliance:jar",
+    "numericFrom" : 46,
+    "numericTo" : 47,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.eureka:eureka-client:jar",
+    "to" : "com.google.inject:guice:jar",
+    "numericFrom" : 28,
+    "numericTo" : 46,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.github.vlsi.compactmap:compactmap:jar",
+    "to" : "com.github.andrewoma.dexx:dexx-collections:jar",
+    "numericFrom" : 48,
+    "numericTo" : 49,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.eureka:eureka-client:jar",
+    "to" : "com.github.vlsi.compactmap:compactmap:jar",
+    "numericFrom" : 28,
+    "numericTo" : 48,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.eureka:eureka-client:jar",
+    "to" : "com.fasterxml.jackson.core:jackson-annotations:jar",
+    "numericFrom" : 28,
+    "numericTo" : 50,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.eureka:eureka-client:jar",
+    "to" : "com.fasterxml.jackson.core:jackson-core:jar",
+    "numericFrom" : 28,
+    "numericTo" : 51,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "to" : "com.netflix.eureka:eureka-client:jar",
+    "numericFrom" : 18,
+    "numericTo" : 28,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "to" : "com.sun.jersey:jersey-servlet:jar",
+    "numericFrom" : 18,
+    "numericTo" : 52,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "to" : "com.sun.jersey:jersey-server:jar",
+    "numericFrom" : 18,
+    "numericTo" : 53,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.codehaus.woodstox:woodstox-core-asl:jar",
+    "to" : "javax.xml.stream:stax-api:jar",
+    "numericFrom" : 54,
+    "numericTo" : 55,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.eureka:eureka-core:jar",
+    "to" : "org.codehaus.woodstox:woodstox-core-asl:jar",
+    "numericFrom" : 56,
+    "numericTo" : 54,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "to" : "com.netflix.eureka:eureka-core:jar",
+    "numericFrom" : 18,
+    "numericTo" : 56,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.archaius:archaius-core:jar",
+    "to" : "com.google.code.findbugs:jsr305:jar",
+    "numericFrom" : 57,
+    "numericTo" : 58,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.google.guava:guava:jar",
+    "to" : "org.checkerframework:checker-compat-qual:jar",
+    "numericFrom" : 59,
+    "numericTo" : 60,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.google.guava:guava:jar",
+    "to" : "com.google.errorprone:error_prone_annotations:jar",
+    "numericFrom" : 59,
+    "numericTo" : 61,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.google.guava:guava:jar",
+    "to" : "com.google.j2objc:j2objc-annotations:jar",
+    "numericFrom" : 59,
+    "numericTo" : 62,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.google.guava:guava:jar",
+    "to" : "org.codehaus.mojo:animal-sniffer-annotations:jar",
+    "numericFrom" : 59,
+    "numericTo" : 63,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.archaius:archaius-core:jar",
+    "to" : "com.google.guava:guava:jar",
+    "numericFrom" : 57,
+    "numericTo" : 59,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "to" : "com.netflix.archaius:archaius-core:jar",
+    "numericFrom" : 18,
+    "numericTo" : 57,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "to" : "javax.inject:javax.inject:jar",
+    "numericFrom" : 18,
+    "numericTo" : 64,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar",
+    "to" : "jakarta.xml.bind:jakarta.xml.bind-api:jar",
+    "numericFrom" : 65,
+    "numericTo" : 66,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar",
+    "to" : "jakarta.activation:jakarta.activation-api:jar",
+    "numericFrom" : 65,
+    "numericTo" : 67,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar",
+    "to" : "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar",
+    "numericFrom" : 68,
+    "numericTo" : 65,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar",
+    "to" : "org.codehaus.woodstox:stax2-api:jar",
+    "numericFrom" : 68,
+    "numericTo" : 69,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar",
+    "to" : "com.fasterxml.woodstox:woodstox-core:jar",
+    "numericFrom" : 68,
+    "numericTo" : 70,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "to" : "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar",
+    "numericFrom" : 18,
+    "numericTo" : 68,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.thoughtworks.xstream:xstream:jar",
+    "to" : "xmlpull:xmlpull:jar",
+    "numericFrom" : 71,
+    "numericTo" : 72,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.thoughtworks.xstream:xstream:jar",
+    "to" : "xpp3:xpp3_min:jar",
+    "numericFrom" : 71,
+    "numericTo" : 73,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "to" : "com.thoughtworks.xstream:xstream:jar",
+    "numericFrom" : 18,
+    "numericTo" : 71,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar",
+    "to" : "org.springframework.cloud:spring-cloud-netflix-eureka-server:jar",
+    "numericFrom" : 7,
+    "numericTo" : 18,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar",
+    "to" : "org.springframework.cloud:spring-cloud-netflix-ribbon:jar",
+    "numericFrom" : 74,
+    "numericTo" : 75,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar",
+    "to" : "org.springframework.cloud:spring-cloud-netflix-archaius:jar",
+    "numericFrom" : 74,
+    "numericTo" : 76,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "commons-configuration:commons-configuration:jar",
+    "to" : "commons-lang:commons-lang:jar",
+    "numericFrom" : 77,
+    "numericTo" : 78,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar",
+    "to" : "commons-configuration:commons-configuration:jar",
+    "numericFrom" : 74,
+    "numericTo" : 77,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar",
+    "to" : "org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar",
+    "numericFrom" : 7,
+    "numericTo" : 74,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.ribbon:ribbon-transport:jar",
+    "to" : "io.reactivex:rxnetty-contexts:jar",
+    "numericFrom" : 79,
+    "numericTo" : 80,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.ribbon:ribbon-transport:jar",
+    "to" : "io.reactivex:rxnetty-servo:jar",
+    "numericFrom" : 79,
+    "numericTo" : 81,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.ribbon:ribbon:jar",
+    "to" : "com.netflix.ribbon:ribbon-transport:jar",
+    "numericFrom" : 82,
+    "numericTo" : 79,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.ribbon:ribbon:jar",
+    "to" : "com.netflix.hystrix:hystrix-core:jar",
+    "numericFrom" : 82,
+    "numericTo" : 83,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.ribbon:ribbon:jar",
+    "to" : "io.reactivex:rxnetty:jar",
+    "numericFrom" : 82,
+    "numericTo" : 84,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar",
+    "to" : "com.netflix.ribbon:ribbon:jar",
+    "numericFrom" : 85,
+    "numericTo" : 82,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar",
+    "to" : "com.netflix.ribbon:ribbon-core:jar",
+    "numericFrom" : 85,
+    "numericTo" : 86,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.ribbon:ribbon-httpclient:jar",
+    "to" : "commons-collections:commons-collections:jar",
+    "numericFrom" : 87,
+    "numericTo" : 88,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.ribbon:ribbon-httpclient:jar",
+    "to" : "com.netflix.netflix-commons:netflix-commons-util:jar",
+    "numericFrom" : 87,
+    "numericTo" : 89,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar",
+    "to" : "com.netflix.ribbon:ribbon-httpclient:jar",
+    "numericFrom" : 85,
+    "numericTo" : 87,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.ribbon:ribbon-loadbalancer:jar",
+    "to" : "com.netflix.netflix-commons:netflix-statistics:jar",
+    "numericFrom" : 90,
+    "numericTo" : 91,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar",
+    "to" : "com.netflix.ribbon:ribbon-loadbalancer:jar",
+    "numericFrom" : 85,
+    "numericTo" : 90,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar",
+    "to" : "io.reactivex:rxjava:jar",
+    "numericFrom" : 85,
+    "numericTo" : 92,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar",
+    "to" : "org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar",
+    "numericFrom" : 7,
+    "numericTo" : 85,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.netflix.ribbon:ribbon-eureka:jar",
+    "to" : "org.slf4j:slf4j-api:jar",
+    "numericFrom" : 93,
+    "numericTo" : 94,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar",
+    "to" : "com.netflix.ribbon:ribbon-eureka:jar",
+    "numericFrom" : 7,
+    "numericTo" : 93,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "cn.org.sqx:wanxinp2p-discover-server:jar",
+    "to" : "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar",
+    "numericFrom" : 95,
+    "numericTo" : 7,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-actuator-autoconfigure:jar",
+    "to" : "org.springframework.boot:spring-boot-actuator:jar",
+    "numericFrom" : 96,
+    "numericTo" : 97,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-actuator-autoconfigure:jar",
+    "to" : "com.fasterxml.jackson.core:jackson-databind:jar",
+    "numericFrom" : 96,
+    "numericTo" : 98,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-actuator-autoconfigure:jar",
+    "to" : "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar",
+    "numericFrom" : 96,
+    "numericTo" : 99,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-actuator:jar",
+    "to" : "org.springframework.boot:spring-boot-actuator-autoconfigure:jar",
+    "numericFrom" : 100,
+    "numericTo" : 96,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.micrometer:micrometer-core:jar",
+    "to" : "org.hdrhistogram:HdrHistogram:jar",
+    "numericFrom" : 101,
+    "numericTo" : 102,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "io.micrometer:micrometer-core:jar",
+    "to" : "org.latencyutils:LatencyUtils:jar",
+    "numericFrom" : 101,
+    "numericTo" : 103,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-actuator:jar",
+    "to" : "io.micrometer:micrometer-core:jar",
+    "numericFrom" : 100,
+    "numericTo" : 101,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "cn.org.sqx:wanxinp2p-discover-server:jar",
+    "to" : "org.springframework.boot:spring-boot-starter-actuator:jar",
+    "numericFrom" : 95,
+    "numericTo" : 100,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework:spring-context:jar",
+    "to" : "org.springframework:spring-aop:jar",
+    "numericFrom" : 104,
+    "numericTo" : 105,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework:spring-context:jar",
+    "to" : "org.springframework:spring-beans:jar",
+    "numericFrom" : 104,
+    "numericTo" : 106,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework:spring-context:jar",
+    "to" : "org.springframework:spring-expression:jar",
+    "numericFrom" : 104,
+    "numericTo" : 107,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot:jar",
+    "to" : "org.springframework:spring-context:jar",
+    "numericFrom" : 108,
+    "numericTo" : 104,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter:jar",
+    "to" : "org.springframework.boot:spring-boot:jar",
+    "numericFrom" : 109,
+    "numericTo" : 108,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter:jar",
+    "to" : "org.springframework.boot:spring-boot-autoconfigure:jar",
+    "numericFrom" : 109,
+    "numericTo" : 110,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter:jar",
+    "to" : "jakarta.annotation:jakarta.annotation-api:jar",
+    "numericFrom" : 109,
+    "numericTo" : 111,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework:spring-core:jar",
+    "to" : "org.springframework:spring-jcl:jar",
+    "numericFrom" : 112,
+    "numericTo" : 113,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter:jar",
+    "to" : "org.springframework:spring-core:jar",
+    "numericFrom" : 109,
+    "numericTo" : 112,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter:jar",
+    "to" : "org.yaml:snakeyaml:jar",
+    "numericFrom" : 109,
+    "numericTo" : 114,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "cn.org.sqx:wanxinp2p-discover-server:jar",
+    "to" : "org.springframework.boot:spring-boot-starter:jar",
+    "numericFrom" : 95,
+    "numericTo" : 109,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.apache.logging.log4j:log4j-slf4j-impl:jar",
+    "to" : "org.apache.logging.log4j:log4j-api:jar",
+    "numericFrom" : 115,
+    "numericTo" : 116,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-log4j2:jar",
+    "to" : "org.apache.logging.log4j:log4j-slf4j-impl:jar",
+    "numericFrom" : 117,
+    "numericTo" : 115,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-log4j2:jar",
+    "to" : "org.apache.logging.log4j:log4j-core:jar",
+    "numericFrom" : 117,
+    "numericTo" : 118,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-log4j2:jar",
+    "to" : "org.apache.logging.log4j:log4j-jul:jar",
+    "numericFrom" : 117,
+    "numericTo" : 119,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-log4j2:jar",
+    "to" : "org.slf4j:jul-to-slf4j:jar",
+    "numericFrom" : 117,
+    "numericTo" : 120,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "cn.org.sqx:wanxinp2p-discover-server:jar",
+    "to" : "org.springframework.boot:spring-boot-starter-log4j2:jar",
+    "numericFrom" : 95,
+    "numericTo" : 117,
+    "resolution" : "INCLUDED"
+  } ]
+}
