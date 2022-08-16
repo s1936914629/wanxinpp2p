@@ -32,7 +32,7 @@
     "numericId" : 4,
     "groupId" : "com.fasterxml.jackson.core",
     "artifactId" : "jackson-annotations",
-    "version" : "2.12.4",
+    "version" : "2.9.0",
     "optional" : false,
     "scopes" : [ "compile" ],
     "types" : [ "jar" ]
@@ -50,7 +50,7 @@
     "numericId" : 6,
     "groupId" : "net.bytebuddy",
     "artifactId" : "byte-buddy",
-    "version" : "1.10.22",
+    "version" : "1.9.10",
     "optional" : false,
     "scopes" : [ "compile" ],
     "types" : [ "jar" ]
@@ -149,7 +149,7 @@
     "numericId" : 17,
     "groupId" : "com.fasterxml",
     "artifactId" : "classmate",
-    "version" : "1.5.1",
+    "version" : "1.4.0",
     "optional" : false,
     "scopes" : [ "compile" ],
     "types" : [ "jar" ]
@@ -158,7 +158,7 @@
     "numericId" : 18,
     "groupId" : "org.slf4j",
     "artifactId" : "slf4j-api",
-    "version" : "1.7.32",
+    "version" : "1.7.25",
     "optional" : false,
     "scopes" : [ "compile" ],
     "types" : [ "jar" ]
@@ -167,7 +167,7 @@
     "numericId" : 19,
     "groupId" : "org.springframework",
     "artifactId" : "spring-core",
-    "version" : "5.3.9",
+    "version" : "5.1.5.RELEASE",
     "optional" : false,
     "scopes" : [ "compile" ],
     "types" : [ "jar" ]
@@ -176,7 +176,7 @@
     "numericId" : 20,
     "groupId" : "org.springframework",
     "artifactId" : "spring-jcl",
-    "version" : "5.3.9",
+    "version" : "5.1.5.RELEASE",
     "optional" : false,
     "scopes" : [ "compile" ],
     "types" : [ "jar" ]
@@ -185,7 +185,7 @@
     "numericId" : 21,
     "groupId" : "org.springframework",
     "artifactId" : "spring-beans",
-    "version" : "5.3.9",
+    "version" : "5.1.5.RELEASE",
     "optional" : false,
     "scopes" : [ "compile" ],
     "types" : [ "jar" ]
@@ -203,7 +203,7 @@
     "numericId" : 23,
     "groupId" : "org.springframework",
     "artifactId" : "spring-context",
-    "version" : "5.3.9",
+    "version" : "5.1.5.RELEASE",
     "optional" : false,
     "scopes" : [ "compile" ],
     "types" : [ "jar" ]
@@ -212,7 +212,7 @@
     "numericId" : 24,
     "groupId" : "org.springframework",
     "artifactId" : "spring-expression",
-    "version" : "5.3.9",
+    "version" : "5.1.5.RELEASE",
     "optional" : false,
     "scopes" : [ "compile" ],
     "types" : [ "jar" ]
@@ -221,7 +221,7 @@
     "numericId" : 25,
     "groupId" : "org.springframework",
     "artifactId" : "spring-aop",
-    "version" : "5.3.9",
+    "version" : "5.1.5.RELEASE",
     "optional" : false,
     "scopes" : [ "compile" ],
     "types" : [ "jar" ]

@@ -19,9 +19,9 @@
     <dependencies>
 
         <dependency>
-            <groupId>cn.itcast.wanxinp2p</groupId>
+            <groupId>cn.org.sqx</groupId>
             <artifactId>wanxinp2p-api</artifactId>
-            <version>${project.version}</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
